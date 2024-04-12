@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Document</title>
 </head>
 <body>
-    <h2>¡{{ usuario.usuario  }} ha comprado el libro '{{ libro.titulo }}'!</h2>
+    {% if libro.titulo == NONE %}
+
+        <h2>¡Bienvenido {{ usuario1 }} a la comunidad literaria Librolandia!</h2>
+        <h3>Agradecemos su preferencia</h3>
+
+
+    {% else %}
+        <h2>¡{{ usuario.usuario }} haz comprado el libro '{{ libro.titulo }}'!</h2>
+    {% endif %}
+
+
 </body>
 </html>

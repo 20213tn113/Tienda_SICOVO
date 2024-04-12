@@ -1,4 +1,5 @@
-LOGIN_CREDENCIALESINVALIDAS='¡Usuario o password incorrectos!'
-LOGOUT = 'Cerraste sesión correctamente.'
+LOGIN_CREDENCIALESINVALIDAS='¡Usuario o Password Incorrectos!'
+LOGOUT='Cerraste Sesión Exitosamente'
 
-MENSAJE_BIENVENIDA='¡ Bienvenido(a) a la librería "CodigoFacilito" !'
+MENSAJE_BIENVENIDA='¡Bienvenid@ a la Librería Librolandia!'
+MENSAJE_REGISTRADO='!Registrado exitosamente¡'
